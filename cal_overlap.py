@@ -106,4 +106,4 @@ if __name__ == '__main__':
     get_pair_info(root=args.root, json_name=args.output_json, ol_thres=args.ol_thres)
 
     end = time.time()
-    print(f'{(end - start) / 360:.2f}h for info generation....')
+    print(f'{(end - start) / 3600:.2f}h for info generation....')

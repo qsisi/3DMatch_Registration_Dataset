@@ -56,7 +56,7 @@ We use the original [3DMatch-toolbox](https://github.com/andyzeng/3dmatch-toolbo
 - OpenCV 3.4.1
 - Matlab R2017a
 
-#### OpenCV Configuration
+### OpenCV Configuration
 
 install **OpenCV 3.4.1** (skip this if you can install OpenCV by yourself)
 
@@ -80,13 +80,13 @@ install **OpenCV 3.4.1** (skip this if you can install OpenCV by yourself)
 >> ldconfig -v | grep opencv
 ```
 
-#### Matlab Configuration
+### Matlab Configuration
 
 Somehow install Matlab on your system :)
 
 I successfully install **Matlab R2017a** on **ubuntu18.04** following this [link](https://blog.csdn.net/dloading7/article/details/125620849?spm=1001.2014.3001.5501).
 
-#### Fuse Depth Images into Point Clouds (train & val set)
+### Fuse Depth Images into Point Clouds (train & val set)
 
 ```shell
 >> git clone https://github.com/andyzeng/3dmatch-toolbox.git
@@ -172,7 +172,7 @@ the **cloud_bin_x.info.txt** contains the transformation matrix that will transf
 
 <a id="testset"></a>
 
-#### Download the Test set
+### Download the Test set
 
 As for the test set (8 scenes), there is no need to generate them yourself,  certainly one can modify the **sceneList** and **fragmentsPath** in **fuseSceneFragments.m** to generate them, but the original [3DMatch website](https://3dmatch.cs.princeton.edu/) has provided them for us, along with ground-truth transformation which could be downloaded at **Geometric Registration Benchmark** on the website.
 
@@ -216,15 +216,15 @@ With all the procedures being correctly done, now the generated data can be arra
 
 ## Download
 
-train.zip
+[train.zip](https://pan.baidu.com/s/111K5VonTBmNlt79Vq9fsNA) (2.46G, pwd: rjzs)
 
-val.zip
+[val.zip](https://pan.baidu.com/s/1bzQEULL66NCQxaa44AbW-g) (190M, pwd: 1pf9)
 
 [test.zip](#testset)
 
-train_info.json (overlap_ratio = 0.3)
+[train_info.json](https://drive.google.com/file/d/1Chljy71xlgjXjX8dMHnfngNi9uHStOYT/view?usp=sharing) (overlap_ratio = 0.3)
 
-val_info.json (overlap_ratio = 0.3)
+[val_info.json](https://drive.google.com/file/d/101fWm62HzPA-UUjJpYyfyLtDiJyQMVlQ/view?usp=sharing) (overlap_ratio = 0.3)
 
 ## Reference
 
